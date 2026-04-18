@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "GHPlanner Lite",
+    "slug": "ghplanner-lite-android",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "ghplannerlite",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#06080D"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ghplanner.lite"
+    },
+    "android": {
+      "package": "com.ghplanner.lite",
+      "versionCode": 1,
+      "permissions": ["INTERNET"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#06080D"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
